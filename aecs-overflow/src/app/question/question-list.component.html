@@ -1,1 +1,12 @@
-<p>question-list works!</p>
+<mat-list>
+  <div mat-subheader>Folders</div>
+  <mat-list-item *ngFor="let question of questions">
+<i *ngIf="question.icon === 'none'" mat-icon mat-list-icon class="material-icons help">help</i>
+<i *ngIf="question.icon !== 'none'" mat-icon mat-list-icon class="{{question.icon}}"></i>
+    <h4 mat-line>{{question.title}}</h4>
+    <p mat-line>
+      <small>
+      {{question.answers.length}} respuestas - {{question.createdAt | amLocale:'es' | amTimeAgo}}</small>
+    </p>
+  </mat-list-item>
+</mat-list>
