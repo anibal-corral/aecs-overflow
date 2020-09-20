@@ -20,7 +20,14 @@ ngModel
       >
       </mat-form-field>
       <mat-grid-list cols="3" rowHeight="3:2">
+        <mat-grid-tile>
+
+          <i mat-list-icon class="material.icons"></i>
+          <small>Sin icono</small>
+        </mat-grid-tile>
+
         <mat-grid-tile *ngFor="let icon of icons">
+
           <i mat-list-icon class="devicon-{{icon.name}}-{{getIconVersion(icon)}}"></i>
         </mat-grid-tile>
       </mat-grid-list>
