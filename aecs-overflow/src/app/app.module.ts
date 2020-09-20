@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from "./material.modules";
 
 import { QuestionDetailComponent } from "./question/question-detail.component";
-
+import {MomentModule} from 'angular2-moment';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { QuestionDetailComponent } from "./question/question-detail.component";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    MomentModule
 
   ],
   providers: [],
