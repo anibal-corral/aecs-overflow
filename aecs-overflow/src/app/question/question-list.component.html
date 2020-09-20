@@ -1,6 +1,6 @@
 <mat-list>
-  <div mat-subheader>Folders</div>
-  <mat-list-item *ngFor="let question of questions">
+
+  <mat-list-item *ngFor="let question of questions" [routerLink]="['question', question._id]">
 <i *ngIf="question.icon === 'none'" mat-icon mat-list-icon class="material-icons help">help</i>
 <i *ngIf="question.icon !== 'none'" mat-icon mat-list-icon class="{{question.icon}}"></i>
     <h4 mat-line>{{question.title}}</h4>
