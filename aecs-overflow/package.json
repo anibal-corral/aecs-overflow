@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently -r  \"npm run start:server\" \"npm run start:client\"",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start:server": "DEBUG=AECS-overflow* babel-node server/index.js"
+    "start:server": "DEBUG=AECS-overflow* babel-node server/index.js",
+    "start:client":"ng serve"
   },
   "private": true,
   "dependencies": {
@@ -24,9 +25,12 @@
     "@angular/router": "~10.1.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "concurrently": "^5.3.0",
     "debug": "^4.2.0",
+    "express": "^4.17.1",
     "moment": "^2.28.0",
     "ngx-moment": "^5.0.0",
+    "nodemon": "^2.0.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
