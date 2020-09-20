@@ -22,7 +22,7 @@ onSubmit(form:NgForm){
     form.value.description,
     this.question,
     new Date(),
-    new User('Anastasia', 'Anais')
+    new User(null,null, 'Anastasia', 'Anais')
   );
   this.question.answers.unshift(answer);
   form.reset();

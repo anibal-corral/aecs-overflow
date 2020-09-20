@@ -1,1 +1,22 @@
-<p>signin-screen works!</p>
+<form [formGroup]="signinForm" (ngSubmit)="onSubmit()">
+  <mat-form-field>
+
+
+    <input
+    matInput
+    placeholder="Correo electronico"
+formControlName="email"
+id="email"
+    >
+    </mat-form-field>
+    <mat-form-field>
+      <input
+      type = "password"
+      matInput
+      placeholder="Password"
+  formControlName="password"
+  id="password"
+      >
+      </mat-form-field>
+      <button mat-raised-button color="accent" type="submit">Iniciar Sesion</button>
+</form>
