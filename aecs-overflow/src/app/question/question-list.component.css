@@ -1,13 +1,12 @@
 i {
   font-size: 48px;
 }
-i.help {
+i .help {
   width: 48px !important;
   height: 48px  !important;
   padding: 0 !important;
   font-size: 48px !important;
 }
-
 .add-question{
   position: fixed;
   bottom: 30px;
