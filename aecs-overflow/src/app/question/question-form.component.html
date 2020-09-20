@@ -4,7 +4,7 @@
     matInput
     placeholder="Titulo"
     name="title"
-formControlName="title"
+
 id="title"
 ngModel
     >
@@ -14,10 +14,17 @@ ngModel
       matInput
       placeholder="Description"
       name="description"
-  formControlName="description"
+
   id="description"
   ngModel
       >
       </mat-form-field>
+      <mat-grid-list cols="3" rowHeight="3:2">
+        <mat-grid-tile *ngFor="let icon of icons">
+          <i mat-list-icon class="devicon-{{icon.name}}-{{getIconVersion(icon)}}"></i>
+        </mat-grid-tile>
+      </mat-grid-list>
+
+
       <button mat-raised-button color="accent" type="submit">Enviar</button>
 </form>

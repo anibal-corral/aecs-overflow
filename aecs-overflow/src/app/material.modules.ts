@@ -10,6 +10,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatRadioModule} from '@angular/material/radio';
+
 
 const modules = [
   MatButtonModule,
@@ -19,7 +22,9 @@ const modules = [
   MatCardModule,
   MatFormFieldModule,
   MatInputModule,
-  MatListModule
+  MatListModule,
+  MatGridListModule,
+  MatRadioModule
 ]
 @NgModule({
 

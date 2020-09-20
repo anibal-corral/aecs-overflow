@@ -25,14 +25,6 @@ export default
     }
   },
   {
-    "name": "apache",
-    "tags": ["php"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark", "line", "line-wordmark"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
     "name": "appcelerator",
     "tags": ["app", "mobile"],
     "versions": {
@@ -57,34 +49,10 @@ export default
     }
   },
   {
-    "name": "babel",
-    "tags": ["javascript", "transpiler"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
-    }
-  },
-  {
     "name": "backbonejs",
     "tags": ["javascript", "framework"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "behance",
-    "tags": ["social", "website"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "bitbucket",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
       "font": ["plain", "plain-wordmark"]
     }
   },
@@ -105,51 +73,11 @@ export default
     }
   },
   {
-    "name": "c",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "plain", "line"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
-    "name": "cakephp",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "ceylon",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain"]
-    }
-  },
-  {
     "name": "chrome",
     "tags": ["browser"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "clojure",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "line", "plain"],
-      "font": []
-    }
-  },
-  {
-    "name": "clojurescript",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": []
     }
   },
   {
@@ -161,54 +89,6 @@ export default
     }
   },
   {
-    "name": "codepen",
-    "tags": ["social", "website", "editor"],
-    "versions": {
-      "svg": ["plain", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "coffeescript",
-    "tags": ["javascript", "language"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["original", "original-wordmark"]
-    }
-  },
-  {
-    "name": "confluence",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "couchdb",
-    "tags": ["database"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "cplusplus",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "plain", "line"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
-    "name": "csharp",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "plain", "line"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
     "name": "css3",
     "tags": ["language", "programming"],
     "versions": {
@@ -217,59 +97,11 @@ export default
     }
   },
   {
-    "name": "cucumber",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "d3js",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
-    }
-  },
-  {
     "name": "debian",
     "tags": ["os", "server"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "devicon",
-    "tags": ["iconset"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "django",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "plain", "line"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
-    "name": "docker",
-    "tags": ["platform", "deploy"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "doctrine",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark", "line", "line-wordmark"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
     }
   },
   {
@@ -289,54 +121,6 @@ export default
     }
   },
   {
-    "name": "electron",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["original", "original-wordmark"]
-    }
-  },
-  {
-    "name": "elm",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "ember",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original-wordmark"],
-      "font": ["original-wordmark"]
-    }
-  },
-  {
-    "name": "erlang",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "express",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["original", "original-wordmark"]
-    }
-  },
-  {
-    "name": "facebook",
-    "tags": ["auth"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
-    }
-  },
-  {
     "name": "firefox",
     "tags": ["browser"],
     "versions": {
@@ -353,83 +137,11 @@ export default
     }
   },
   {
-    "name": "gatling",
-    "tags": ["framework", "testing"],
-    "versions": {
-      "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "gimp",
-    "tags": ["graphic"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain"]
-    }
-  },
-  {
     "name": "git",
     "tags": ["version-control"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "github",
-    "tags": ["version-control"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "gitlab",
-    "tags": ["version-control"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "go",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "plain", "line"],
-      "font": ["plain", "line"]
-    }
-  },
-  {
-    "name": "google",
-    "tags": ["auth"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "gradle",
-    "tags": ["task-runner"],
-    "versions": {
-      "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "grails",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
-    }
-  },
-  {
-    "name": "groovy",
-    "tags": ["programming", "language"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
     }
   },
   {
@@ -446,30 +158,6 @@ export default
     "versions": {
       "svg": ["plain"],
       "font": ["plain"]
-    }
-  },
-  {
-    "name": "haskell",
-    "tags": ["language", "functional"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "handlebars",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "heroku",
-    "tags": ["cloud"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["original", "original-wordmark", "plain", "plain-wordmark", "line", "line-wordmark"]
     }
   },
   {
@@ -493,39 +181,7 @@ export default
     "tags": ["editor", "vector"],
     "versions": {
       "svg": ["plain", "line"],
-      "font": ["plain", "line"]
-    }
-  },
-  {
-    "name": "inkscape",
-    "tags": ["editor", "vector"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "intellij",
-    "tags": ["editor"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "ionic",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["original", "original-wordmark"]
-    }
-  },
-  {
-    "name": "jasmine",
-    "tags": ["testing"],
-    "versions": {
-      "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
+      "font": ["original"]
     }
   },
   {
@@ -542,22 +198,6 @@ export default
     "versions": {
       "svg": ["original", "plain"],
       "font": ["plain"]
-    }
-  },
-  {
-    "name": "jeet",
-    "tags": ["framework", "css"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "jetbrains",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
     }
   },
   {
@@ -593,35 +233,11 @@ export default
     }
   },
   {
-    "name": "linkedin",
-    "tags": ["social", "auth"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
     "name": "linux",
     "tags": ["os"],
     "versions": {
       "svg": ["original", "plain"],
       "font": ["plain"]
-    }
-  },
-  {
-    "name": "meteor",
-    "tags": ["javascript"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "mocha",
-    "tags": ["testing"],
-    "versions": {
-      "svg": ["plain"],
-      "font": []
     }
   },
   {
@@ -649,35 +265,11 @@ export default
     }
   },
   {
-    "name": "nginx",
-    "tags": ["server"],
-    "versions": {
-      "svg": ["original"],
-      "font": ["original", "original-wordmark", "plain", "plain-wordmark"]
-    }
-  },
-  {
     "name": "nodejs",
     "tags": ["javascript", "language"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "nodewebkit",
-    "tags": [],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark", "line", "line-wordmark"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
-    "name": "npm",
-    "tags": ["package", "manager"],
-    "versions": {
-      "svg": ["original-wordmark"],
-      "font": ["original-wordmark"]
     }
   },
   {
@@ -705,32 +297,8 @@ export default
     }
   },
   {
-    "name": "phpstorm",
-    "tags": ["editor"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
     "name": "postgresql",
     "tags": ["database"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "protractor",
-    "tags": ["framework", "javascript"],
-    "versions": {
-      "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "pycharm",
-    "tags": ["editor"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
@@ -753,38 +321,6 @@ export default
     }
   },
   {
-    "name": "react",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["original", "original-wordmark"]
-    }
-  },
-  {
-    "name": "redhat",
-    "tags": ["server", "linux"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "redis",
-    "tags": ["server"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "redux",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original"],
-      "font": []
-    }
-  },
-  {
     "name": "ruby",
     "tags": ["programming", "language"],
     "versions": {
@@ -793,115 +329,11 @@ export default
     }
   },
   {
-    "name": "rubymine",
-    "tags": ["editor"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "rust",
-    "tags": ["programming", "language"],
-    "versions": {
-      "svg": ["plain"],
-      "font": ["plain"]
-    }
-  },
-  {
-    "name": "safari",
-    "tags": ["browser"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark", "line-wordmark", "line"],
-      "font": ["plain", "plain-wordmark", "line-wordmark", "line"]
-    }
-  },
-  {
     "name": "sass",
     "tags": ["pre-processor", "css"],
     "versions": {
       "svg": ["original"],
       "font": ["original"]
-    }
-  },
-  {
-    "name": "scala",
-    "tags": ["programming", "language"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "sequelize",
-    "tags": ["database", "language"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "sketch",
-    "tags": ["application"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "line", "line-wordmark"],
-      "font": ["line", "line-wordmark"]
-    }
-  },
-  {
-    "name": "slack",
-    "tags": ["chat"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "sourcetree",
-    "tags": ["version-control"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "ssh",
-    "tags": ["security"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "stylus",
-    "tags": ["css", "pre-processor"],
-    "versions": {
-      "svg": ["original"],
-      "font": ["original"]
-    }
-  },
-  {
-    "name": "swift",
-    "tags": ["language"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "symfony",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["original", "original-wordmark"]
-    }
-  },
-  {
-    "name": "tomcat",
-    "tags": ["server"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "line", "line-wordmark"],
-      "font": ["line", "line-wordmark"]
     }
   },
   {
@@ -921,74 +353,10 @@ export default
     }
   },
   {
-    "name": "twitter",
-    "tags": ["auth"],
-    "versions": {
-      "svg": ["original"],
-      "font": ["plain"]
-    }
-  },
-  {
-    "name": "typescript",
-    "tags": ["programming", "transpiler"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
-    }
-  },
-  {
     "name": "ubuntu",
     "tags": ["os"],
     "versions": {
       "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "vagrant",
-    "tags": ["platform"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "vim",
-    "tags": ["editor"],
-    "versions": {
-      "svg": ["original", "plain"],
-      "font": ["plain"]
-    }
-  },
-  {
-    "name": "visualstudio",
-    "tags": ["editor"],
-    "versions": {
-      "svg": ["plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "vuejs",
-    "tags": ["framework"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark", "line", "line-wordmark"],
-      "font": ["plain", "plain-wordmark", "line", "line-wordmark"]
-    }
-  },
-  {
-    "name": "webpack",
-    "tags": ["package", "manager"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "webstorm",
-    "tags": ["editor"],
-    "versions": {
-      "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
     }
   },
@@ -1009,27 +377,11 @@ export default
     }
   },
   {
-    "name": "yarn",
-    "tags": ["package", "manager"],
-    "versions": {
-      "svg": ["original", "original-wordmark"],
-      "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
     "name": "yii",
     "tags": ["php", "framework"],
     "versions": {
       "svg": ["original", "original-wordmark", "plain", "plain-wordmark"],
       "font": ["plain", "plain-wordmark"]
-    }
-  },
-  {
-    "name": "yunohost",
-    "tags": ["os"],
-    "versions": {
-      "svg": ["original"],
-      "font": []
     }
   },
   {
@@ -1040,4 +392,4 @@ export default
       "font": ["plain", "plain-wordmark"]
     }
   }
-]
+];
