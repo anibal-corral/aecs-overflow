@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {NgForm} from '@angular/forms';
-import {Answer,User} from './answer.model';
+import {Answer} from './answer.model';
+import {User} from '../auth/user.model';
 import {Question} from '../question/question-model';
 @Component({
   selector: 'app-answer-form',

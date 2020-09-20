@@ -10,13 +10,15 @@ import { MaterialModule } from "./material.modules";
 import { QuestionDetailComponent } from "./question/question-detail.component";
 import { AnswerComponent } from './answer/answer.component';
 import {MomentModule} from 'ngx-moment';
+import { SigninScreenComponent } from './auth/signin-screen.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     QuestionDetailComponent,
-    AnswerComponent
+    AnswerComponent,
+    SigninScreenComponent
   ],
   imports: [
     BrowserModule,
