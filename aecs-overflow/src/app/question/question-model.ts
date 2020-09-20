@@ -18,6 +18,6 @@ export class Question {
     this.description=description;
     this.createdAt=createdAt;
     this.icon=icon;
-    this.answers=answers;
+    this.answers=[];
   }
 }
