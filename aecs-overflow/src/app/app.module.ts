@@ -16,6 +16,9 @@ import { QuestionListComponent } from './question/question-list.component';
 import { QuestionFormComponent } from './question/question-form.component';
 
 
+//ruteo
+import {Routing} from './app.routing';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,12 +31,13 @@ import { QuestionFormComponent } from './question/question-form.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    //AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
     MomentModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    Routing
 
   ],
   providers: [],

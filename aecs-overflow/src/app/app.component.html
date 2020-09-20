@@ -1,17 +1,13 @@
 
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-    <span>AECS Overflow</span>
+    <span [routerLink]="['/']">AECS Overflow</span>
     <span class="spacer"></span>
-    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+    <mat-icon [routerLink]="['/signin']"
+
+     class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
   </mat-toolbar-row>
 
 
 </mat-toolbar>
-<!--<app-signin-screen></app-signin-screen>
- <app-question-detail></app-question-detail>
-<app-signup-screen></app-signup-screen>
-
-<app-question-list></app-question-list>
--->
-<app-question-form></app-question-form>
+<router-outlet></router-outlet>
